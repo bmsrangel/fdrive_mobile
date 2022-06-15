@@ -1,6 +1,8 @@
+import 'package:fdrive/core/config/service_locator_config.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  configureDependencies();
   runApp(const MyApp());
 }
 
